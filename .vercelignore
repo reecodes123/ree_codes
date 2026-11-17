@@ -1,0 +1,15 @@
+node_modules
+.next
+.git
+.env
+.env.*
+!.env.example
+.localdb
+backups
+db-dumps
+public/uploads
+*.dump
+*.bak
+*.sqlite
+*.sqlite3
+*.tsbuildinfo

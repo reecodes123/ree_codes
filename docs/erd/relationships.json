@@ -1,0 +1,56 @@
+[
+  {
+    "table_name": "accounts",
+    "column_name": "userId",
+    "parent": "users",
+    "parent_column": "id"
+  },
+  {
+    "table_name": "activity_logs",
+    "column_name": "actorId",
+    "parent": "users",
+    "parent_column": "id"
+  },
+  {
+    "table_name": "article_revisions",
+    "column_name": "articleId",
+    "parent": "articles",
+    "parent_column": "id"
+  },
+  {
+    "table_name": "articles",
+    "column_name": "authorId",
+    "parent": "users",
+    "parent_column": "id"
+  },
+  {
+    "table_name": "articles",
+    "column_name": "categoryId",
+    "parent": "categories",
+    "parent_column": "id"
+  },
+  {
+    "table_name": "board_members",
+    "column_name": "positionId",
+    "parent": "positions",
+    "parent_column": "id"
+  },
+  {
+    "table_name": "board_members",
+    "column_name": "userId",
+    "parent": "users",
+    "parent_column": "id"
+  },
+  {
+    "table_name": "media_assets",
+    "column_name": "uploadedById",
+    "parent": "users",
+    "parent_column": "id"
+  },
+  {
+    "table_name": "sessions",
+    "column_name": "userId",
+    "parent": "users",
+    "parent_column": "id"
+  }
+]

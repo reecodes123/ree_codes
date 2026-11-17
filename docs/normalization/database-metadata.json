@@ -1,0 +1,1021 @@
+{
+  "verifiedDate": "2026-11-17",
+  "columns": [
+    {
+      "table_name": "_prisma_migrations",
+      "column_name": "id",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "_prisma_migrations",
+      "column_name": "checksum",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "_prisma_migrations",
+      "column_name": "finished_at",
+      "data_type": "timestamp with time zone",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "_prisma_migrations",
+      "column_name": "migration_name",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "_prisma_migrations",
+      "column_name": "logs",
+      "data_type": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "_prisma_migrations",
+      "column_name": "rolled_back_at",
+      "data_type": "timestamp with time zone",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "_prisma_migrations",
+      "column_name": "started_at",
+      "data_type": "timestamp with time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "_prisma_migrations",
+      "column_name": "applied_steps_count",
+      "data_type": "integer",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "about_page",
+      "column_name": "id",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "about_page",
+      "column_name": "heroEyebrow",
+      "data_type": "character varying",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "about_page",
+      "column_name": "heroTitle",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "about_page",
+      "column_name": "heroSubtitle",
+      "data_type": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "about_page",
+      "column_name": "heroImageUrl",
+      "data_type": "character varying",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "about_page",
+      "column_name": "overview",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "about_page",
+      "column_name": "missionPillars",
+      "data_type": "jsonb",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "about_page",
+      "column_name": "achievements",
+      "data_type": "jsonb",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "about_page",
+      "column_name": "updatedAt",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "accounts",
+      "column_name": "id",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "accounts",
+      "column_name": "userId",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "accounts",
+      "column_name": "type",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "accounts",
+      "column_name": "provider",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "accounts",
+      "column_name": "providerAccountId",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "accounts",
+      "column_name": "refresh_token",
+      "data_type": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "accounts",
+      "column_name": "access_token",
+      "data_type": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "accounts",
+      "column_name": "expires_at",
+      "data_type": "integer",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "accounts",
+      "column_name": "token_type",
+      "data_type": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "accounts",
+      "column_name": "scope",
+      "data_type": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "accounts",
+      "column_name": "id_token",
+      "data_type": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "accounts",
+      "column_name": "session_state",
+      "data_type": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "activity_logs",
+      "column_name": "id",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "activity_logs",
+      "column_name": "action",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "activity_logs",
+      "column_name": "targetType",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "activity_logs",
+      "column_name": "targetId",
+      "data_type": "character varying",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "activity_logs",
+      "column_name": "summary",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "activity_logs",
+      "column_name": "createdAt",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "activity_logs",
+      "column_name": "actorId",
+      "data_type": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "article_revisions",
+      "column_name": "id",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "article_revisions",
+      "column_name": "articleId",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "article_revisions",
+      "column_name": "title",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "article_revisions",
+      "column_name": "excerpt",
+      "data_type": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "article_revisions",
+      "column_name": "content",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "article_revisions",
+      "column_name": "status",
+      "data_type": "USER-DEFINED",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "article_revisions",
+      "column_name": "editedById",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "article_revisions",
+      "column_name": "editedByName",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "article_revisions",
+      "column_name": "createdAt",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "id",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "slug",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "title",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "subheadline",
+      "data_type": "character varying",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "excerpt",
+      "data_type": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "content",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "coverImageUrl",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "contentImageUrls",
+      "data_type": "jsonb",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "featured",
+      "data_type": "boolean",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "status",
+      "data_type": "USER-DEFINED",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "publishedAt",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "views",
+      "data_type": "integer",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "likes",
+      "data_type": "integer",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "bookmarks",
+      "data_type": "integer",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "createdAt",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "updatedAt",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "categoryId",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "authorId",
+      "data_type": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "photoCredit",
+      "data_type": "character varying",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "articleBy",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "board_members",
+      "column_name": "id",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "board_members",
+      "column_name": "name",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "board_members",
+      "column_name": "description",
+      "data_type": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "board_members",
+      "column_name": "imageUrl",
+      "data_type": "character varying",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "board_members",
+      "column_name": "sortOrder",
+      "data_type": "integer",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "board_members",
+      "column_name": "createdAt",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "board_members",
+      "column_name": "updatedAt",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "board_members",
+      "column_name": "userId",
+      "data_type": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "board_members",
+      "column_name": "positionId",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "categories",
+      "column_name": "id",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "categories",
+      "column_name": "name",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "categories",
+      "column_name": "slug",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "categories",
+      "column_name": "description",
+      "data_type": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "categories",
+      "column_name": "sortOrder",
+      "data_type": "integer",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "categories",
+      "column_name": "createdAt",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "categories",
+      "column_name": "updatedAt",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "daily_visits",
+      "column_name": "date",
+      "data_type": "date",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "daily_visits",
+      "column_name": "visitors",
+      "data_type": "integer",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "feedback",
+      "column_name": "id",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "feedback",
+      "column_name": "message",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "feedback",
+      "column_name": "name",
+      "data_type": "character varying",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "feedback",
+      "column_name": "status",
+      "data_type": "USER-DEFINED",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "feedback",
+      "column_name": "submittedAt",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "media_assets",
+      "column_name": "id",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "media_assets",
+      "column_name": "url",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "media_assets",
+      "column_name": "fileName",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "media_assets",
+      "column_name": "mimeType",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "media_assets",
+      "column_name": "sizeBytes",
+      "data_type": "integer",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "media_assets",
+      "column_name": "createdAt",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "media_assets",
+      "column_name": "uploadedById",
+      "data_type": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "positions",
+      "column_name": "id",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "positions",
+      "column_name": "name",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "positions",
+      "column_name": "tier",
+      "data_type": "USER-DEFINED",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "positions",
+      "column_name": "sortOrder",
+      "data_type": "integer",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "positions",
+      "column_name": "createdAt",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "positions",
+      "column_name": "updatedAt",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "sessions",
+      "column_name": "id",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "sessions",
+      "column_name": "sessionToken",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "sessions",
+      "column_name": "userId",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "sessions",
+      "column_name": "expires",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "terms_page",
+      "column_name": "id",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "terms_page",
+      "column_name": "content",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "terms_page",
+      "column_name": "version",
+      "data_type": "integer",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "terms_page",
+      "column_name": "updatedAt",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "users",
+      "column_name": "id",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "users",
+      "column_name": "email",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "users",
+      "column_name": "displayName",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "users",
+      "column_name": "passwordHash",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "users",
+      "column_name": "role",
+      "data_type": "USER-DEFINED",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "users",
+      "column_name": "active",
+      "data_type": "boolean",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "users",
+      "column_name": "avatarUrl",
+      "data_type": "character varying",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "users",
+      "column_name": "createdAt",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "users",
+      "column_name": "updatedAt",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "users",
+      "column_name": "sessionVersion",
+      "data_type": "integer",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "users",
+      "column_name": "termsAcceptedVersion",
+      "data_type": "integer",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "users",
+      "column_name": "canApproveArticles",
+      "data_type": "boolean",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "verification_tokens",
+      "column_name": "identifier",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "verification_tokens",
+      "column_name": "token",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "verification_tokens",
+      "column_name": "expires",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "website_settings",
+      "column_name": "id",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "website_settings",
+      "column_name": "siteName",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "website_settings",
+      "column_name": "tagline",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "website_settings",
+      "column_name": "logoUrl",
+      "data_type": "character varying",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "website_settings",
+      "column_name": "heroHeadline",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "website_settings",
+      "column_name": "heroSubheadline",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "website_settings",
+      "column_name": "announcement",
+      "data_type": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "website_settings",
+      "column_name": "organizationName",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "website_settings",
+      "column_name": "organizationDescription",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "website_settings",
+      "column_name": "contactEmail",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "website_settings",
+      "column_name": "socialFacebook",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "website_settings",
+      "column_name": "socialX",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "website_settings",
+      "column_name": "socialInstagram",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "website_settings",
+      "column_name": "socialYoutube",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "website_settings",
+      "column_name": "footerText",
+      "data_type": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "website_settings",
+      "column_name": "updatedAt",
+      "data_type": "timestamp without time zone",
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "website_settings",
+      "column_name": "academicYear",
+      "data_type": "character varying",
+      "is_nullable": "NO"
+    }
+  ],
+  "keys": [
+    {
+      "table_name": "_prisma_migrations",
+      "constraint_name": "_prisma_migrations_pkey",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "id",
+      "ordinal_position": 1
+    },
+    {
+      "table_name": "about_page",
+      "constraint_name": "about_page_pkey",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "id",
+      "ordinal_position": 1
+    },
+    {
+      "table_name": "accounts",
+      "constraint_name": "accounts_pkey",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "id",
+      "ordinal_position": 1
+    },
+    {
+      "table_name": "activity_logs",
+      "constraint_name": "activity_logs_pkey",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "id",
+      "ordinal_position": 1
+    },
+    {
+      "table_name": "article_revisions",
+      "constraint_name": "article_revisions_pkey",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "id",
+      "ordinal_position": 1
+    },
+    {
+      "table_name": "articles",
+      "constraint_name": "articles_pkey",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "id",
+      "ordinal_position": 1
+    },
+    {
+      "table_name": "board_members",
+      "constraint_name": "board_members_pkey",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "id",
+      "ordinal_position": 1
+    },
+    {
+      "table_name": "categories",
+      "constraint_name": "categories_pkey",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "id",
+      "ordinal_position": 1
+    },
+    {
+      "table_name": "daily_visits",
+      "constraint_name": "daily_visits_pkey",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "date",
+      "ordinal_position": 1
+    },
+    {
+      "table_name": "feedback",
+      "constraint_name": "feedback_pkey",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "id",
+      "ordinal_position": 1
+    },
+    {
+      "table_name": "media_assets",
+      "constraint_name": "media_assets_pkey",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "id",
+      "ordinal_position": 1
+    },
+    {
+      "table_name": "positions",
+      "constraint_name": "positions_pkey",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "id",
+      "ordinal_position": 1
+    },
+    {
+      "table_name": "sessions",
+      "constraint_name": "sessions_pkey",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "id",
+      "ordinal_position": 1
+    },
+    {
+      "table_name": "terms_page",
+      "constraint_name": "terms_page_pkey",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "id",
+      "ordinal_position": 1
+    },
+    {
+      "table_name": "users",
+      "constraint_name": "users_pkey",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "id",
+      "ordinal_position": 1
+    },
+    {
+      "table_name": "website_settings",
+      "constraint_name": "website_settings_pkey",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "id",
+      "ordinal_position": 1
+    }
+  ],
+  "links": [
+    {
+      "table_name": "accounts",
+      "column_name": "userId",
+      "parent": "users",
+      "parent_column": "id"
+    },
+    {
+      "table_name": "activity_logs",
+      "column_name": "actorId",
+      "parent": "users",
+      "parent_column": "id"
+    },
+    {
+      "table_name": "article_revisions",
+      "column_name": "articleId",
+      "parent": "articles",
+      "parent_column": "id"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "authorId",
+      "parent": "users",
+      "parent_column": "id"
+    },
+    {
+      "table_name": "articles",
+      "column_name": "categoryId",
+      "parent": "categories",
+      "parent_column": "id"
+    },
+    {
+      "table_name": "board_members",
+      "column_name": "positionId",
+      "parent": "positions",
+      "parent_column": "id"
+    },
+    {
+      "table_name": "board_members",
+      "column_name": "userId",
+      "parent": "users",
+      "parent_column": "id"
+    },
+    {
+      "table_name": "media_assets",
+      "column_name": "uploadedById",
+      "parent": "users",
+      "parent_column": "id"
+    },
+    {
+      "table_name": "sessions",
+      "column_name": "userId",
+      "parent": "users",
+      "parent_column": "id"
+    }
+  ]
+}

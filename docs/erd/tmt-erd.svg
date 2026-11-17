@@ -1,0 +1,555 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2860" height="3950" viewBox="0 0 2860 3950"><rect width="100%" height="100%" fill="white"/><style>text{font-family:Arial,sans-serif;fill:#172b4d}.title{font-size:38px;font-weight:bold}.name{font-size:25px;font-weight:bold;fill:white}.col{font-size:20px}.type{font-size:18px;fill:#526580}.small{font-size:21px}.edge{fill:none;stroke:#285e9c;stroke-width:3}</style>
+<text x="60" y="60" class="title">THE MATRIX TODAY | Physical Entity–Relationship Diagram</text>
+<text x="60" y="102" class="small">PostgreSQL · public schema · 16 application tables · 9 enforced foreign keys</text>
+<text x="60" y="140" class="small">PK = primary key   FK = foreign key   UQ = unique column   ? = nullable   | = one   O = optional   crow’s foot = many</text>
+<path class="edge" d="M 800 253 H 690 V 283 H 580"/>
+<path class="edge" d="M 788 244 V 262"/>
+<path class="edge" d="M 777 244 V 262"/>
+<path class="edge" d="M 580 272 L 599 283 L 580 294"/>
+<circle cx="610" cy="283" r="6" fill="white" stroke="#285e9c" stroke-width="3"/>
+<path class="edge" d="M 800 253 H 702 V 1263 H 580"/>
+<path class="edge" d="M 788 244 V 262"/>
+<circle cx="772" cy="253" r="6" fill="white" stroke="#285e9c" stroke-width="3"/>
+<path class="edge" d="M 580 1252 L 599 1263 L 580 1274"/>
+<circle cx="610" cy="1263" r="6" fill="white" stroke="#285e9c" stroke-width="3"/>
+<path class="edge" d="M 1320 993 H 1369 V 1833 H 1320"/>
+<path class="edge" d="M 1332 984 V 1002"/>
+<path class="edge" d="M 1343 984 V 1002"/>
+<path class="edge" d="M 1320 1822 L 1339 1833 L 1320 1844"/>
+<circle cx="1350" cy="1833" r="6" fill="white" stroke="#285e9c" stroke-width="3"/>
+<path class="edge" d="M 1320 253 H 1381 V 1503 H 1320"/>
+<path class="edge" d="M 1332 244 V 262"/>
+<circle cx="1348" cy="253" r="6" fill="white" stroke="#285e9c" stroke-width="3"/>
+<path class="edge" d="M 1320 1492 L 1339 1503 L 1320 1514"/>
+<circle cx="1350" cy="1503" r="6" fill="white" stroke="#285e9c" stroke-width="3"/>
+<path class="edge" d="M 1540 1163 H 1478 V 1473 H 1320"/>
+<path class="edge" d="M 1528 1154 V 1172"/>
+<path class="edge" d="M 1517 1154 V 1172"/>
+<path class="edge" d="M 1320 1462 L 1339 1473 L 1320 1484"/>
+<circle cx="1350" cy="1473" r="6" fill="white" stroke="#285e9c" stroke-width="3"/>
+<path class="edge" d="M 2280 663 H 2230 V 903 H 2060"/>
+<path class="edge" d="M 2268 654 V 672"/>
+<path class="edge" d="M 2257 654 V 672"/>
+<path class="edge" d="M 2060 892 L 2079 903 L 2060 914"/>
+<circle cx="2090" cy="903" r="6" fill="white" stroke="#285e9c" stroke-width="3"/>
+<path class="edge" d="M 1320 253 H 1442 V 873 H 1540"/>
+<path class="edge" d="M 1332 244 V 262"/>
+<circle cx="1348" cy="253" r="6" fill="white" stroke="#285e9c" stroke-width="3"/>
+<path class="edge" d="M 1528 864 V 882"/>
+<circle cx="1510" cy="873" r="6" fill="white" stroke="#285e9c" stroke-width="3"/>
+<path class="edge" d="M 1320 253 H 1454 V 433 H 1540"/>
+<path class="edge" d="M 1332 244 V 262"/>
+<circle cx="1348" cy="253" r="6" fill="white" stroke="#285e9c" stroke-width="3"/>
+<path class="edge" d="M 1540 422 L 1521 433 L 1540 444"/>
+<circle cx="1510" cy="433" r="6" fill="white" stroke="#285e9c" stroke-width="3"/>
+<path class="edge" d="M 800 253 H 786 V 853 H 580"/>
+<path class="edge" d="M 788 244 V 262"/>
+<path class="edge" d="M 777 244 V 262"/>
+<path class="edge" d="M 580 842 L 599 853 L 580 864"/>
+<circle cx="610" cy="853" r="6" fill="white" stroke="#285e9c" stroke-width="3"/>
+<rect x="60" y="2330" width="520" height="318" rx="5" fill="white" stroke="#a6b6cb" stroke-width="2"/><path d="M 60 2330 h 520 v 48 h -520 Z" fill="#526579"/>
+<text x="76" y="2363" class="name">about_page</text>
+<rect x="61" y="2378" width="518" height="30" fill="#f0f4f9"/>
+<text x="70" y="2400" class="type">PK</text>
+<text x="152" y="2400" class="col">id</text>
+<text x="568" y="2400" text-anchor="end" class="type">text</text>
+<text x="70" y="2430" class="type"></text>
+<text x="152" y="2430" class="col">heroEyebrow ?</text>
+<text x="568" y="2430" text-anchor="end" class="type">varchar(120)</text>
+<rect x="61" y="2438" width="518" height="30" fill="#f0f4f9"/>
+<text x="70" y="2460" class="type"></text>
+<text x="152" y="2460" class="col">heroTitle</text>
+<text x="568" y="2460" text-anchor="end" class="type">varchar(120)</text>
+<text x="70" y="2490" class="type"></text>
+<text x="152" y="2490" class="col">heroSubtitle ?</text>
+<text x="568" y="2490" text-anchor="end" class="type">text</text>
+<rect x="61" y="2498" width="518" height="30" fill="#f0f4f9"/>
+<text x="70" y="2520" class="type"></text>
+<text x="152" y="2520" class="col">heroImageUrl ?</text>
+<text x="568" y="2520" text-anchor="end" class="type">varchar(500)</text>
+<text x="70" y="2550" class="type"></text>
+<text x="152" y="2550" class="col">overview</text>
+<text x="568" y="2550" text-anchor="end" class="type">text</text>
+<rect x="61" y="2558" width="518" height="30" fill="#f0f4f9"/>
+<text x="70" y="2580" class="type"></text>
+<text x="152" y="2580" class="col">missionPillars</text>
+<text x="568" y="2580" text-anchor="end" class="type">jsonb</text>
+<text x="70" y="2610" class="type"></text>
+<text x="152" y="2610" class="col">achievements</text>
+<text x="568" y="2610" text-anchor="end" class="type">jsonb</text>
+<rect x="61" y="2618" width="518" height="30" fill="#f0f4f9"/>
+<text x="70" y="2640" class="type"></text>
+<text x="152" y="2640" class="col">updatedAt</text>
+<text x="568" y="2640" text-anchor="end" class="type">timestamp</text>
+<rect x="60" y="190" width="520" height="408" rx="5" fill="white" stroke="#a6b6cb" stroke-width="2"/><path d="M 60 190 h 520 v 48 h -520 Z" fill="#203f66"/>
+<text x="76" y="223" class="name">accounts</text>
+<rect x="61" y="238" width="518" height="30" fill="#f0f4f9"/>
+<text x="70" y="260" class="type">PK</text>
+<text x="152" y="260" class="col">id</text>
+<text x="568" y="260" text-anchor="end" class="type">text</text>
+<text x="70" y="290" class="type">FK</text>
+<text x="152" y="290" class="col">userId</text>
+<text x="568" y="290" text-anchor="end" class="type">text</text>
+<rect x="61" y="298" width="518" height="30" fill="#f0f4f9"/>
+<text x="70" y="320" class="type"></text>
+<text x="152" y="320" class="col">type</text>
+<text x="568" y="320" text-anchor="end" class="type">text</text>
+<text x="70" y="350" class="type"></text>
+<text x="152" y="350" class="col">provider</text>
+<text x="568" y="350" text-anchor="end" class="type">text</text>
+<rect x="61" y="358" width="518" height="30" fill="#f0f4f9"/>
+<text x="70" y="380" class="type"></text>
+<text x="152" y="380" class="col">providerAccountId</text>
+<text x="568" y="380" text-anchor="end" class="type">text</text>
+<text x="70" y="410" class="type"></text>
+<text x="152" y="410" class="col">refresh_token ?</text>
+<text x="568" y="410" text-anchor="end" class="type">text</text>
+<rect x="61" y="418" width="518" height="30" fill="#f0f4f9"/>
+<text x="70" y="440" class="type"></text>
+<text x="152" y="440" class="col">access_token ?</text>
+<text x="568" y="440" text-anchor="end" class="type">text</text>
+<text x="70" y="470" class="type"></text>
+<text x="152" y="470" class="col">expires_at ?</text>
+<text x="568" y="470" text-anchor="end" class="type">integer</text>
+<rect x="61" y="478" width="518" height="30" fill="#f0f4f9"/>
+<text x="70" y="500" class="type"></text>
+<text x="152" y="500" class="col">token_type ?</text>
+<text x="568" y="500" text-anchor="end" class="type">text</text>
+<text x="70" y="530" class="type"></text>
+<text x="152" y="530" class="col">scope ?</text>
+<text x="568" y="530" text-anchor="end" class="type">text</text>
+<rect x="61" y="538" width="518" height="30" fill="#f0f4f9"/>
+<text x="70" y="560" class="type"></text>
+<text x="152" y="560" class="col">id_token ?</text>
+<text x="568" y="560" text-anchor="end" class="type">text</text>
+<text x="70" y="590" class="type"></text>
+<text x="152" y="590" class="col">session_state ?</text>
+<text x="568" y="590" text-anchor="end" class="type">text</text>
+<rect x="60" y="1020" width="520" height="258" rx="5" fill="white" stroke="#a6b6cb" stroke-width="2"/><path d="M 60 1020 h 520 v 48 h -520 Z" fill="#203f66"/>
+<text x="76" y="1053" class="name">activity_logs</text>
+<rect x="61" y="1068" width="518" height="30" fill="#f0f4f9"/>
+<text x="70" y="1090" class="type">PK</text>
+<text x="152" y="1090" class="col">id</text>
+<text x="568" y="1090" text-anchor="end" class="type">text</text>
+<text x="70" y="1120" class="type"></text>
+<text x="152" y="1120" class="col">action</text>
+<text x="568" y="1120" text-anchor="end" class="type">varchar(60)</text>
+<rect x="61" y="1128" width="518" height="30" fill="#f0f4f9"/>
+<text x="70" y="1150" class="type"></text>
+<text x="152" y="1150" class="col">targetType</text>
+<text x="568" y="1150" text-anchor="end" class="type">varchar(60)</text>
+<text x="70" y="1180" class="type"></text>
+<text x="152" y="1180" class="col">targetId ?</text>
+<text x="568" y="1180" text-anchor="end" class="type">varchar(60)</text>
+<rect x="61" y="1188" width="518" height="30" fill="#f0f4f9"/>
+<text x="70" y="1210" class="type"></text>
+<text x="152" y="1210" class="col">summary</text>
+<text x="568" y="1210" text-anchor="end" class="type">varchar(500)</text>
+<text x="70" y="1240" class="type"></text>
+<text x="152" y="1240" class="col">createdAt</text>
+<text x="568" y="1240" text-anchor="end" class="type">timestamp</text>
+<rect x="61" y="1248" width="518" height="30" fill="#f0f4f9"/>
+<text x="70" y="1270" class="type">FK</text>
+<text x="152" y="1270" class="col">actorId ?</text>
+<text x="568" y="1270" text-anchor="end" class="type">text</text>
+<rect x="800" y="1740" width="520" height="318" rx="5" fill="white" stroke="#a6b6cb" stroke-width="2"/><path d="M 800 1740 h 520 v 48 h -520 Z" fill="#203f66"/>
+<text x="816" y="1773" class="name">article_revisions</text>
+<rect x="801" y="1788" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="1810" class="type">PK</text>
+<text x="892" y="1810" class="col">id</text>
+<text x="1308" y="1810" text-anchor="end" class="type">text</text>
+<text x="810" y="1840" class="type">FK</text>
+<text x="892" y="1840" class="col">articleId</text>
+<text x="1308" y="1840" text-anchor="end" class="type">text</text>
+<rect x="801" y="1848" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="1870" class="type"></text>
+<text x="892" y="1870" class="col">title</text>
+<text x="1308" y="1870" text-anchor="end" class="type">varchar(255)</text>
+<text x="810" y="1900" class="type"></text>
+<text x="892" y="1900" class="col">excerpt ?</text>
+<text x="1308" y="1900" text-anchor="end" class="type">text</text>
+<rect x="801" y="1908" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="1930" class="type"></text>
+<text x="892" y="1930" class="col">content</text>
+<text x="1308" y="1930" text-anchor="end" class="type">text</text>
+<text x="810" y="1960" class="type"></text>
+<text x="892" y="1960" class="col">status</text>
+<text x="1308" y="1960" text-anchor="end" class="type">ArticleStatus</text>
+<rect x="801" y="1968" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="1990" class="type"></text>
+<text x="892" y="1990" class="col">editedById</text>
+<text x="1308" y="1990" text-anchor="end" class="type">text</text>
+<text x="810" y="2020" class="type"></text>
+<text x="892" y="2020" class="col">editedByName</text>
+<text x="1308" y="2020" text-anchor="end" class="type">varchar(120)</text>
+<rect x="801" y="2028" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="2050" class="type"></text>
+<text x="892" y="2050" class="col">createdAt</text>
+<text x="1308" y="2050" text-anchor="end" class="type">timestamp</text>
+<rect x="800" y="930" width="520" height="648" rx="5" fill="white" stroke="#a6b6cb" stroke-width="2"/><path d="M 800 930 h 520 v 48 h -520 Z" fill="#203f66"/>
+<text x="816" y="963" class="name">articles</text>
+<rect x="801" y="978" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="1000" class="type">PK</text>
+<text x="892" y="1000" class="col">id</text>
+<text x="1308" y="1000" text-anchor="end" class="type">text</text>
+<text x="810" y="1030" class="type">UQ</text>
+<text x="892" y="1030" class="col">slug</text>
+<text x="1308" y="1030" text-anchor="end" class="type">varchar(220)</text>
+<rect x="801" y="1038" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="1060" class="type"></text>
+<text x="892" y="1060" class="col">title</text>
+<text x="1308" y="1060" text-anchor="end" class="type">varchar(255)</text>
+<text x="810" y="1090" class="type"></text>
+<text x="892" y="1090" class="col">subheadline ?</text>
+<text x="1308" y="1090" text-anchor="end" class="type">varchar(255)</text>
+<rect x="801" y="1098" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="1120" class="type"></text>
+<text x="892" y="1120" class="col">excerpt ?</text>
+<text x="1308" y="1120" text-anchor="end" class="type">text</text>
+<text x="810" y="1150" class="type"></text>
+<text x="892" y="1150" class="col">content</text>
+<text x="1308" y="1150" text-anchor="end" class="type">text</text>
+<rect x="801" y="1158" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="1180" class="type"></text>
+<text x="892" y="1180" class="col">coverImageUrl</text>
+<text x="1308" y="1180" text-anchor="end" class="type">varchar(500)</text>
+<text x="810" y="1210" class="type"></text>
+<text x="892" y="1210" class="col">contentImageUrls ?</text>
+<text x="1308" y="1210" text-anchor="end" class="type">jsonb</text>
+<rect x="801" y="1218" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="1240" class="type"></text>
+<text x="892" y="1240" class="col">featured</text>
+<text x="1308" y="1240" text-anchor="end" class="type">boolean</text>
+<text x="810" y="1270" class="type"></text>
+<text x="892" y="1270" class="col">status</text>
+<text x="1308" y="1270" text-anchor="end" class="type">ArticleStatus</text>
+<rect x="801" y="1278" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="1300" class="type"></text>
+<text x="892" y="1300" class="col">publishedAt ?</text>
+<text x="1308" y="1300" text-anchor="end" class="type">timestamp</text>
+<text x="810" y="1330" class="type"></text>
+<text x="892" y="1330" class="col">views</text>
+<text x="1308" y="1330" text-anchor="end" class="type">integer</text>
+<rect x="801" y="1338" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="1360" class="type"></text>
+<text x="892" y="1360" class="col">likes</text>
+<text x="1308" y="1360" text-anchor="end" class="type">integer</text>
+<text x="810" y="1390" class="type"></text>
+<text x="892" y="1390" class="col">bookmarks</text>
+<text x="1308" y="1390" text-anchor="end" class="type">integer</text>
+<rect x="801" y="1398" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="1420" class="type"></text>
+<text x="892" y="1420" class="col">createdAt</text>
+<text x="1308" y="1420" text-anchor="end" class="type">timestamp</text>
+<text x="810" y="1450" class="type"></text>
+<text x="892" y="1450" class="col">updatedAt</text>
+<text x="1308" y="1450" text-anchor="end" class="type">timestamp</text>
+<rect x="801" y="1458" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="1480" class="type">FK</text>
+<text x="892" y="1480" class="col">categoryId</text>
+<text x="1308" y="1480" text-anchor="end" class="type">text</text>
+<text x="810" y="1510" class="type">FK</text>
+<text x="892" y="1510" class="col">authorId ?</text>
+<text x="1308" y="1510" text-anchor="end" class="type">text</text>
+<rect x="801" y="1518" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="1540" class="type"></text>
+<text x="892" y="1540" class="col">photoCredit ?</text>
+<text x="1308" y="1540" text-anchor="end" class="type">varchar(160)</text>
+<text x="810" y="1570" class="type"></text>
+<text x="892" y="1570" class="col">articleBy</text>
+<text x="1308" y="1570" text-anchor="end" class="type">varchar(160)</text>
+<rect x="1540" y="600" width="520" height="318" rx="5" fill="white" stroke="#a6b6cb" stroke-width="2"/><path d="M 1540 600 h 520 v 48 h -520 Z" fill="#203f66"/>
+<text x="1556" y="633" class="name">board_members</text>
+<rect x="1541" y="648" width="518" height="30" fill="#f0f4f9"/>
+<text x="1550" y="670" class="type">PK</text>
+<text x="1632" y="670" class="col">id</text>
+<text x="2048" y="670" text-anchor="end" class="type">text</text>
+<text x="1550" y="700" class="type"></text>
+<text x="1632" y="700" class="col">name</text>
+<text x="2048" y="700" text-anchor="end" class="type">varchar(120)</text>
+<rect x="1541" y="708" width="518" height="30" fill="#f0f4f9"/>
+<text x="1550" y="730" class="type"></text>
+<text x="1632" y="730" class="col">description ?</text>
+<text x="2048" y="730" text-anchor="end" class="type">text</text>
+<text x="1550" y="760" class="type"></text>
+<text x="1632" y="760" class="col">imageUrl ?</text>
+<text x="2048" y="760" text-anchor="end" class="type">varchar(500)</text>
+<rect x="1541" y="768" width="518" height="30" fill="#f0f4f9"/>
+<text x="1550" y="790" class="type"></text>
+<text x="1632" y="790" class="col">sortOrder</text>
+<text x="2048" y="790" text-anchor="end" class="type">integer</text>
+<text x="1550" y="820" class="type"></text>
+<text x="1632" y="820" class="col">createdAt</text>
+<text x="2048" y="820" text-anchor="end" class="type">timestamp</text>
+<rect x="1541" y="828" width="518" height="30" fill="#f0f4f9"/>
+<text x="1550" y="850" class="type"></text>
+<text x="1632" y="850" class="col">updatedAt</text>
+<text x="2048" y="850" text-anchor="end" class="type">timestamp</text>
+<text x="1550" y="880" class="type">FK/UQ</text>
+<text x="1632" y="880" class="col">userId ?</text>
+<text x="2048" y="880" text-anchor="end" class="type">text</text>
+<rect x="1541" y="888" width="518" height="30" fill="#f0f4f9"/>
+<text x="1550" y="910" class="type">FK</text>
+<text x="1632" y="910" class="col">positionId</text>
+<text x="2048" y="910" text-anchor="end" class="type">text</text>
+<rect x="1540" y="1100" width="520" height="258" rx="5" fill="white" stroke="#a6b6cb" stroke-width="2"/><path d="M 1540 1100 h 520 v 48 h -520 Z" fill="#203f66"/>
+<text x="1556" y="1133" class="name">categories</text>
+<rect x="1541" y="1148" width="518" height="30" fill="#f0f4f9"/>
+<text x="1550" y="1170" class="type">PK</text>
+<text x="1632" y="1170" class="col">id</text>
+<text x="2048" y="1170" text-anchor="end" class="type">text</text>
+<text x="1550" y="1200" class="type">UQ</text>
+<text x="1632" y="1200" class="col">name</text>
+<text x="2048" y="1200" text-anchor="end" class="type">varchar(80)</text>
+<rect x="1541" y="1208" width="518" height="30" fill="#f0f4f9"/>
+<text x="1550" y="1230" class="type">UQ</text>
+<text x="1632" y="1230" class="col">slug</text>
+<text x="2048" y="1230" text-anchor="end" class="type">varchar(80)</text>
+<text x="1550" y="1260" class="type"></text>
+<text x="1632" y="1260" class="col">description ?</text>
+<text x="2048" y="1260" text-anchor="end" class="type">text</text>
+<rect x="1541" y="1268" width="518" height="30" fill="#f0f4f9"/>
+<text x="1550" y="1290" class="type"></text>
+<text x="1632" y="1290" class="col">sortOrder</text>
+<text x="2048" y="1290" text-anchor="end" class="type">integer</text>
+<text x="1550" y="1320" class="type"></text>
+<text x="1632" y="1320" class="col">createdAt</text>
+<text x="2048" y="1320" text-anchor="end" class="type">timestamp</text>
+<rect x="1541" y="1328" width="518" height="30" fill="#f0f4f9"/>
+<text x="1550" y="1350" class="type"></text>
+<text x="1632" y="1350" class="col">updatedAt</text>
+<text x="2048" y="1350" text-anchor="end" class="type">timestamp</text>
+<rect x="800" y="2330" width="520" height="108" rx="5" fill="white" stroke="#a6b6cb" stroke-width="2"/><path d="M 800 2330 h 520 v 48 h -520 Z" fill="#526579"/>
+<text x="816" y="2363" class="name">daily_visits</text>
+<rect x="801" y="2378" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="2400" class="type">PK</text>
+<text x="892" y="2400" class="col">date</text>
+<text x="1308" y="2400" text-anchor="end" class="type">date</text>
+<text x="810" y="2430" class="type"></text>
+<text x="892" y="2430" class="col">visitors</text>
+<text x="1308" y="2430" text-anchor="end" class="type">integer</text>
+<rect x="1540" y="2330" width="520" height="198" rx="5" fill="white" stroke="#a6b6cb" stroke-width="2"/><path d="M 1540 2330 h 520 v 48 h -520 Z" fill="#526579"/>
+<text x="1556" y="2363" class="name">feedback</text>
+<rect x="1541" y="2378" width="518" height="30" fill="#f0f4f9"/>
+<text x="1550" y="2400" class="type">PK</text>
+<text x="1632" y="2400" class="col">id</text>
+<text x="2048" y="2400" text-anchor="end" class="type">text</text>
+<text x="1550" y="2430" class="type"></text>
+<text x="1632" y="2430" class="col">message</text>
+<text x="2048" y="2430" text-anchor="end" class="type">text</text>
+<rect x="1541" y="2438" width="518" height="30" fill="#f0f4f9"/>
+<text x="1550" y="2460" class="type"></text>
+<text x="1632" y="2460" class="col">name ?</text>
+<text x="2048" y="2460" text-anchor="end" class="type">varchar(120)</text>
+<text x="1550" y="2490" class="type"></text>
+<text x="1632" y="2490" class="col">status</text>
+<text x="2048" y="2490" text-anchor="end" class="type">FeedbackStatus</text>
+<rect x="1541" y="2498" width="518" height="30" fill="#f0f4f9"/>
+<text x="1550" y="2520" class="type"></text>
+<text x="1632" y="2520" class="col">submittedAt</text>
+<text x="2048" y="2520" text-anchor="end" class="type">timestamp</text>
+<rect x="1540" y="190" width="520" height="258" rx="5" fill="white" stroke="#a6b6cb" stroke-width="2"/><path d="M 1540 190 h 520 v 48 h -520 Z" fill="#203f66"/>
+<text x="1556" y="223" class="name">media_assets</text>
+<rect x="1541" y="238" width="518" height="30" fill="#f0f4f9"/>
+<text x="1550" y="260" class="type">PK</text>
+<text x="1632" y="260" class="col">id</text>
+<text x="2048" y="260" text-anchor="end" class="type">text</text>
+<text x="1550" y="290" class="type"></text>
+<text x="1632" y="290" class="col">url</text>
+<text x="2048" y="290" text-anchor="end" class="type">varchar(500)</text>
+<rect x="1541" y="298" width="518" height="30" fill="#f0f4f9"/>
+<text x="1550" y="320" class="type"></text>
+<text x="1632" y="320" class="col">fileName</text>
+<text x="2048" y="320" text-anchor="end" class="type">varchar(255)</text>
+<text x="1550" y="350" class="type"></text>
+<text x="1632" y="350" class="col">mimeType</text>
+<text x="2048" y="350" text-anchor="end" class="type">varchar(100)</text>
+<rect x="1541" y="358" width="518" height="30" fill="#f0f4f9"/>
+<text x="1550" y="380" class="type"></text>
+<text x="1632" y="380" class="col">sizeBytes</text>
+<text x="2048" y="380" text-anchor="end" class="type">integer</text>
+<text x="1550" y="410" class="type"></text>
+<text x="1632" y="410" class="col">createdAt</text>
+<text x="2048" y="410" text-anchor="end" class="type">timestamp</text>
+<rect x="1541" y="418" width="518" height="30" fill="#f0f4f9"/>
+<text x="1550" y="440" class="type">FK</text>
+<text x="1632" y="440" class="col">uploadedById ?</text>
+<text x="2048" y="440" text-anchor="end" class="type">text</text>
+<rect x="2280" y="600" width="520" height="228" rx="5" fill="white" stroke="#a6b6cb" stroke-width="2"/><path d="M 2280 600 h 520 v 48 h -520 Z" fill="#203f66"/>
+<text x="2296" y="633" class="name">positions</text>
+<rect x="2281" y="648" width="518" height="30" fill="#f0f4f9"/>
+<text x="2290" y="670" class="type">PK</text>
+<text x="2372" y="670" class="col">id</text>
+<text x="2788" y="670" text-anchor="end" class="type">text</text>
+<text x="2290" y="700" class="type">UQ</text>
+<text x="2372" y="700" class="col">name</text>
+<text x="2788" y="700" text-anchor="end" class="type">varchar(120)</text>
+<rect x="2281" y="708" width="518" height="30" fill="#f0f4f9"/>
+<text x="2290" y="730" class="type"></text>
+<text x="2372" y="730" class="col">tier</text>
+<text x="2788" y="730" text-anchor="end" class="type">BoardTier</text>
+<text x="2290" y="760" class="type"></text>
+<text x="2372" y="760" class="col">sortOrder</text>
+<text x="2788" y="760" text-anchor="end" class="type">integer</text>
+<rect x="2281" y="768" width="518" height="30" fill="#f0f4f9"/>
+<text x="2290" y="790" class="type"></text>
+<text x="2372" y="790" class="col">createdAt</text>
+<text x="2788" y="790" text-anchor="end" class="type">timestamp</text>
+<text x="2290" y="820" class="type"></text>
+<text x="2372" y="820" class="col">updatedAt</text>
+<text x="2788" y="820" text-anchor="end" class="type">timestamp</text>
+<rect x="60" y="730" width="520" height="168" rx="5" fill="white" stroke="#a6b6cb" stroke-width="2"/><path d="M 60 730 h 520 v 48 h -520 Z" fill="#203f66"/>
+<text x="76" y="763" class="name">sessions</text>
+<rect x="61" y="778" width="518" height="30" fill="#f0f4f9"/>
+<text x="70" y="800" class="type">PK</text>
+<text x="152" y="800" class="col">id</text>
+<text x="568" y="800" text-anchor="end" class="type">text</text>
+<text x="70" y="830" class="type">UQ</text>
+<text x="152" y="830" class="col">sessionToken</text>
+<text x="568" y="830" text-anchor="end" class="type">text</text>
+<rect x="61" y="838" width="518" height="30" fill="#f0f4f9"/>
+<text x="70" y="860" class="type">FK</text>
+<text x="152" y="860" class="col">userId</text>
+<text x="568" y="860" text-anchor="end" class="type">text</text>
+<text x="70" y="890" class="type"></text>
+<text x="152" y="890" class="col">expires</text>
+<text x="568" y="890" text-anchor="end" class="type">timestamp</text>
+<rect x="2280" y="2330" width="520" height="168" rx="5" fill="white" stroke="#a6b6cb" stroke-width="2"/><path d="M 2280 2330 h 520 v 48 h -520 Z" fill="#526579"/>
+<text x="2296" y="2363" class="name">terms_page</text>
+<rect x="2281" y="2378" width="518" height="30" fill="#f0f4f9"/>
+<text x="2290" y="2400" class="type">PK</text>
+<text x="2372" y="2400" class="col">id</text>
+<text x="2788" y="2400" text-anchor="end" class="type">text</text>
+<text x="2290" y="2430" class="type"></text>
+<text x="2372" y="2430" class="col">content</text>
+<text x="2788" y="2430" text-anchor="end" class="type">text</text>
+<rect x="2281" y="2438" width="518" height="30" fill="#f0f4f9"/>
+<text x="2290" y="2460" class="type"></text>
+<text x="2372" y="2460" class="col">version</text>
+<text x="2788" y="2460" text-anchor="end" class="type">integer</text>
+<text x="2290" y="2490" class="type"></text>
+<text x="2372" y="2490" class="col">updatedAt</text>
+<text x="2788" y="2490" text-anchor="end" class="type">timestamp</text>
+<rect x="800" y="190" width="520" height="408" rx="5" fill="white" stroke="#a6b6cb" stroke-width="2"/><path d="M 800 190 h 520 v 48 h -520 Z" fill="#203f66"/>
+<text x="816" y="223" class="name">users</text>
+<rect x="801" y="238" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="260" class="type">PK</text>
+<text x="892" y="260" class="col">id</text>
+<text x="1308" y="260" text-anchor="end" class="type">text</text>
+<text x="810" y="290" class="type">UQ</text>
+<text x="892" y="290" class="col">email</text>
+<text x="1308" y="290" text-anchor="end" class="type">text</text>
+<rect x="801" y="298" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="320" class="type"></text>
+<text x="892" y="320" class="col">displayName</text>
+<text x="1308" y="320" text-anchor="end" class="type">varchar(120)</text>
+<text x="810" y="350" class="type"></text>
+<text x="892" y="350" class="col">passwordHash</text>
+<text x="1308" y="350" text-anchor="end" class="type">varchar(255)</text>
+<rect x="801" y="358" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="380" class="type"></text>
+<text x="892" y="380" class="col">role</text>
+<text x="1308" y="380" text-anchor="end" class="type">UserRole</text>
+<text x="810" y="410" class="type"></text>
+<text x="892" y="410" class="col">active</text>
+<text x="1308" y="410" text-anchor="end" class="type">boolean</text>
+<rect x="801" y="418" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="440" class="type"></text>
+<text x="892" y="440" class="col">avatarUrl ?</text>
+<text x="1308" y="440" text-anchor="end" class="type">varchar(500)</text>
+<text x="810" y="470" class="type"></text>
+<text x="892" y="470" class="col">createdAt</text>
+<text x="1308" y="470" text-anchor="end" class="type">timestamp</text>
+<rect x="801" y="478" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="500" class="type"></text>
+<text x="892" y="500" class="col">updatedAt</text>
+<text x="1308" y="500" text-anchor="end" class="type">timestamp</text>
+<text x="810" y="530" class="type"></text>
+<text x="892" y="530" class="col">sessionVersion</text>
+<text x="1308" y="530" text-anchor="end" class="type">integer</text>
+<rect x="801" y="538" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="560" class="type"></text>
+<text x="892" y="560" class="col">termsAcceptedVersion ?</text>
+<text x="1308" y="560" text-anchor="end" class="type">integer</text>
+<text x="810" y="590" class="type"></text>
+<text x="892" y="590" class="col">canApproveArticles</text>
+<text x="1308" y="590" text-anchor="end" class="type">boolean</text>
+<rect x="60" y="3080" width="520" height="138" rx="5" fill="white" stroke="#a6b6cb" stroke-width="2"/><path d="M 60 3080 h 520 v 48 h -520 Z" fill="#526579"/>
+<text x="76" y="3113" class="name">verification_tokens</text>
+<rect x="61" y="3128" width="518" height="30" fill="#f0f4f9"/>
+<text x="70" y="3150" class="type"></text>
+<text x="152" y="3150" class="col">identifier</text>
+<text x="568" y="3150" text-anchor="end" class="type">text</text>
+<text x="70" y="3180" class="type">UQ</text>
+<text x="152" y="3180" class="col">token</text>
+<text x="568" y="3180" text-anchor="end" class="type">text</text>
+<rect x="61" y="3188" width="518" height="30" fill="#f0f4f9"/>
+<text x="70" y="3210" class="type"></text>
+<text x="152" y="3210" class="col">expires</text>
+<text x="568" y="3210" text-anchor="end" class="type">timestamp</text>
+<rect x="800" y="3080" width="520" height="558" rx="5" fill="white" stroke="#a6b6cb" stroke-width="2"/><path d="M 800 3080 h 520 v 48 h -520 Z" fill="#526579"/>
+<text x="816" y="3113" class="name">website_settings</text>
+<rect x="801" y="3128" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="3150" class="type">PK</text>
+<text x="892" y="3150" class="col">id</text>
+<text x="1308" y="3150" text-anchor="end" class="type">text</text>
+<text x="810" y="3180" class="type"></text>
+<text x="892" y="3180" class="col">siteName</text>
+<text x="1308" y="3180" text-anchor="end" class="type">varchar(120)</text>
+<rect x="801" y="3188" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="3210" class="type"></text>
+<text x="892" y="3210" class="col">tagline</text>
+<text x="1308" y="3210" text-anchor="end" class="type">varchar(255)</text>
+<text x="810" y="3240" class="type"></text>
+<text x="892" y="3240" class="col">logoUrl ?</text>
+<text x="1308" y="3240" text-anchor="end" class="type">varchar(500)</text>
+<rect x="801" y="3248" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="3270" class="type"></text>
+<text x="892" y="3270" class="col">heroHeadline</text>
+<text x="1308" y="3270" text-anchor="end" class="type">varchar(255)</text>
+<text x="810" y="3300" class="type"></text>
+<text x="892" y="3300" class="col">heroSubheadline</text>
+<text x="1308" y="3300" text-anchor="end" class="type">text</text>
+<rect x="801" y="3308" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="3330" class="type"></text>
+<text x="892" y="3330" class="col">announcement ?</text>
+<text x="1308" y="3330" text-anchor="end" class="type">text</text>
+<text x="810" y="3360" class="type"></text>
+<text x="892" y="3360" class="col">organizationName</text>
+<text x="1308" y="3360" text-anchor="end" class="type">varchar(120)</text>
+<rect x="801" y="3368" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="3390" class="type"></text>
+<text x="892" y="3390" class="col">organizationDescription</text>
+<text x="1308" y="3390" text-anchor="end" class="type">text</text>
+<text x="810" y="3420" class="type"></text>
+<text x="892" y="3420" class="col">contactEmail</text>
+<text x="1308" y="3420" text-anchor="end" class="type">varchar(255)</text>
+<rect x="801" y="3428" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="3450" class="type"></text>
+<text x="892" y="3450" class="col">socialFacebook</text>
+<text x="1308" y="3450" text-anchor="end" class="type">varchar(500)</text>
+<text x="810" y="3480" class="type"></text>
+<text x="892" y="3480" class="col">socialX</text>
+<text x="1308" y="3480" text-anchor="end" class="type">varchar(500)</text>
+<rect x="801" y="3488" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="3510" class="type"></text>
+<text x="892" y="3510" class="col">socialInstagram</text>
+<text x="1308" y="3510" text-anchor="end" class="type">varchar(500)</text>
+<text x="810" y="3540" class="type"></text>
+<text x="892" y="3540" class="col">socialYoutube</text>
+<text x="1308" y="3540" text-anchor="end" class="type">varchar(500)</text>
+<rect x="801" y="3548" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="3570" class="type"></text>
+<text x="892" y="3570" class="col">footerText</text>
+<text x="1308" y="3570" text-anchor="end" class="type">text</text>
+<text x="810" y="3600" class="type"></text>
+<text x="892" y="3600" class="col">updatedAt</text>
+<text x="1308" y="3600" text-anchor="end" class="type">timestamp</text>
+<rect x="801" y="3608" width="518" height="30" fill="#f0f4f9"/>
+<text x="810" y="3630" class="type"></text>
+<text x="892" y="3630" class="col">academicYear</text>
+<text x="1308" y="3630" text-anchor="end" class="type">varchar(20)</text>
+<text x="60" y="2240" class="title">Independent tables · no declared foreign-key relationships</text>
+<text x="60" y="2280" class="small">These tables intentionally remain unconnected. Internal _prisma_migrations is omitted.</text>
+<text x="60" y="3890" class="small">Connections reflect database constraints only. article_revisions.editedById and activity_logs.targetId are not foreign keys.</text>
+</svg>
